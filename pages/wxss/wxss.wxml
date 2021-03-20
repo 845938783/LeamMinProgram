@@ -1,0 +1,4 @@
+<view>{{nowTime}}</view>
+<view>{{age >= 18 ? '成年人' : '未成年人'}}</view>
+<view class="{{isActive ? 'active' : ''}}">哈哈哈哈</view>
+<button size="mini" bindtap="btnSwiptColor">切换颜色</button>

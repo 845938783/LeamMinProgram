@@ -1,0 +1,4 @@
+#content{
+  color: skyblue;
+  font-size: 30px;
+}
