@@ -1,16 +1,6 @@
-// pages/home/home.js
-// const app = getApp()
-// console.log(app.globalData.name);
-// console.log(app.globalData.age);
-
+// pages/profile/profile.js
 Page({
-data:{
-  message:'哈哈哈',
-  list:[]
-},  
-  handleGetuserinfo(event){
-    console.log(event);
-  },
+
   /**
    * 页面的初始数据
    */
@@ -22,17 +12,7 @@ data:{
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    wx.request({
-      url: 'http://152.136.185.210:7878/api/m5/recommend',
-      success: (res) => {
-        console.log(res);
-        const data = res.data.data.list;
-        this.setData({
-          list: data
-        })
-      }
 
-    })
   },
 
   /**
@@ -82,14 +62,5 @@ data:{
    */
   onShareAppMessage: function () {
 
-  },
-  onPageScroll(obj){
-    console.log(obj);
-  },
-  onReachBottom(){
-    console.log('页面滚动到底部');
-  },
- onPullDownRefresh(){
-   console.log('下拉刷新');
- }
+  }
 })
