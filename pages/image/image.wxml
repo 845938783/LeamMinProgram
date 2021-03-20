@@ -1,0 +1,7 @@
+<!--pages/image/image.wxml-->
+<!-- 重点：
+     1.image组件可以写成单标签。也可以写成双标签
+     2.image组件有默认自己的大小  ： 320x240  
+-->
+<image></image>
+<text>哈哈</text>

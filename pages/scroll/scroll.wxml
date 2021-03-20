@@ -1,0 +1,16 @@
+<!-- 水平滚动 -->
+<scroll-view class="cintainer1" scroll-x>
+  <view wx:for="{{20}}" class="item1" wx:key="index">{{item}}</view>
+</scroll-view>
+
+<!-- 垂直滚动 -->
+
+<scroll-view class="cintainer2" scroll-y>
+  <view wx:for="{{20}}" class="item2" wx:key="index">{{item}}</view>
+</scroll-view>
+
+<!-- 其他补充 -->
+<scroll-view class="cintainer2" scroll-y
+  bindscroll="handleScroll">
+  <view wx:for="{{20}}" class="item2" wx:key="index">{{item}}</view>
+</scroll-view>
